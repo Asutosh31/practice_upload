@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="com.S16_testNG_Tutorial.Basic1"/>
+            <class name="com.S16_testNG_Tutorial.Basic2"/>
+            <class name="com.S16_testNG_Tutorial.Basic4"/>
+        </classes>
+    </test>
+    <test name="PersonalLoan">
+    	<classes>
+    		<class name="com.S16_testNG_Tutorial.Basic3">
+    			<methods>
+    				<exclude name="Ploan.*"/>
+    			</methods>
+    		</class>
+    	</classes>
+    </test>
+    
+</suite>

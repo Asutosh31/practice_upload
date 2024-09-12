@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Basic1">
+    	<parameter name="URL" value="base.com"/>
+       		<classes>
+            	<class name="com.S16_testNG_Tutorial.Basic1">	
+				</class>
+ 		 	</classes>
+    </test>
+    <test name="Basic2">
+    	<parameter name="URL" value="devt.com"/>
+    		<classes>
+	    		<class name="com.S16_testNG_Tutorial.Basic2"/>
+			</classes>
+    </test>
+    <test name="Basic3">
+    	<parameter name="URL" value="personalloan.com"/>
+    		<classes>
+	    		<class name="com.S16_testNG_Tutorial.Basic3"/>
+			</classes>
+    </test>    
+    <test name="Basic4">
+    	<parameter name="URL" value="homeloan.com"/>
+    		<classes>
+	    		<class name="com.S16_testNG_Tutorial.Basic4"/>
+			</classes>
+    </test>         
+</suite>

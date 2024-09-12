@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="PersonalLoan">
+    	<groups>
+    		<run>
+    			<include name="smoke"/>
+    		</run>
+    	</groups>
+    	<classes>
+    		<class name="com.S16_testNG_Tutorial.Basic1"/>
+    		<class name="com.S16_testNG_Tutorial.Basic2"/>
+    		<class name="com.S16_testNG_Tutorial.Basic3"/>
+    		<class name="com.S16_testNG_Tutorial.Basic4"/>
+    	</classes>
+    </test>
+    
+</suite>
